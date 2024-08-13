@@ -16,7 +16,7 @@ public class Objective5Lab1
 {
 	public static void main(String[] args)
 	{
-		// now declaring variables that will be assigned by input from the keyboard and
+		// now declaring variables
 		// initialize them to expected values
 		int num1 = 5, num2 = 15;
 		
