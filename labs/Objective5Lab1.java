@@ -18,24 +18,34 @@ public class Objective5Lab1
 	{
 		// now declaring variables
 		// initialize them to expected values
-		int num1 = 5, num2 = 15;
+		String string1 = "Banana";
+		String string2 = "Bacon";
+		String string3 = "Banana";
 		
 		
-		// printing out some blank lines before getting input
-		System.out.println("\n\n");
+		// printing out original values so we know our starting point
+		System.out.println("\n\n\n\tValue for String 1 = " + string1);
+		System.out.println("\tValue for String 2 = " + string2);
+		System.out.println("\tValue for String 3 = " + string3 + "\n\n\n");
 		
-		if (num1 > num2)
+		if (string1.equals(string2))
 		{
-			System.out.println("\n\tNumber 1 which is = " + num1 + " and is greater than the value for Number 2 which is = " + num2 + "\n\n");
-		}
-		else if (num2 > num1)
-		{
-			System.out.println("\n\tNumber 2 which is = " + num2 + " and is greater than the value for Number 1 which is = " + num1+ "\n\n");
+			System.out.println("\n\tString 1 " + string1 + " is equivalent to String 2 "+ string2 + "\n\n");
 		}
 		else
 		{
-			System.out.println("\n\tNumber 1 " + num1 + " is equal to Number 2 " + num2 + "\n\n");
+			System.out.println("\n\tString 1 " + string1 + " is not equivalent to String 2 " + string2 + "\n\n");
 		}
+		
+		if (string1.equals(string3))
+		{
+			System.out.println("\n\tString 1 " + string1 + " is equivalent to String 3 "+ string3 + "\n\n");
+		}
+		else
+		{
+			System.out.println("\n\tString 1 " + string1 + " is not equivalent to String 3 " + string3 + "\n\n");
+		}
+	
 		
 	}
 	
