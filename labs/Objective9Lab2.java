@@ -23,6 +23,8 @@ public class Objective9Lab2
 		// now going to call the method to print out that I am in the method
 		message();
 		
+		System.out.println("\tBack in the land of Main after returing from method message\n\n");
+		
 	}	
 	
 	public static void message()
