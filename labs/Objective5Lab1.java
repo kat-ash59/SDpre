@@ -2,50 +2,39 @@
 // Objective 5 programs
 // using if statements
 //
-// Compare two numbers, `num1` and `num2`. Depending on what condition is true, 
-// we want different sections of code to execute. Use the Expected Output to guide you.
-// Create a class structure with the name `Objective5Lab1`.
-// Create a `main` method.
-// Declare and initialize two `int` variables, `num1` and `num2`, with appropriate values.
+//  Compare two numbers, `num1` and `num2`. Depending on what condition is true, we want different sections of code to execute. Use the Expected Output to guide you.
+//  Create a class structure with the name `Objective5Lab1`.
+//  Create a `main` method.
+//  Declare and initialize two `int` variables, `num1` and `num2`, with appropriate values.
 
 // need to be able to use import to get input variables
 import java.time.*;
 import java.util.*;
 
-public class Objective5Lab1
+public class Objective5Lab2
 {
 	public static void main(String[] args)
 	{
-		// now declaring variables
+		// now declaring variables 
 		// initialize them to expected values
-		String string1 = "Banana";
-		String string2 = "Bacon";
-		String string3 = "Banana";
+		int num1 = 5, num2 = 15;
 		
 		
-		// printing out original values so we know our starting point
-		System.out.println("\n\n\n\tValue for String 1 = " + string1);
-		System.out.println("\tValue for String 2 = " + string2);
-		System.out.println("\tValue for String 3 = " + string3 + "\n\n\n");
+		// printing out some blank lines before getting input
+		System.out.println("\n\n");
 		
-		if (string1.equals(string2))
+		if (num1 > num2)
 		{
-			System.out.println("\n\tString 1 " + string1 + " is equivalent to String 2 "+ string2 + "\n\n");
+			System.out.println("\n\tNumber 1 which is = " + num1 + " and is greater than the value for Number 2 which is = " + num2 + "\n\n");
+		}
+		else if (num2 > num1)
+		{
+			System.out.println("\n\tNumber 2 which is = " + num2 + " and is greater than the value for Number 1 which is = " + num1+ "\n\n");
 		}
 		else
 		{
-			System.out.println("\n\tString 1 " + string1 + " is not equivalent to String 2 " + string2 + "\n\n");
+			System.out.println("\n\tNumber 1 " + num1 + " is equal to Number 2 " + num2 + "\n\n");
 		}
-		
-		if (string1.equals(string3))
-		{
-			System.out.println("\n\tString 1 " + string1 + " is equivalent to String 3 "+ string3 + "\n\n");
-		}
-		else
-		{
-			System.out.println("\n\tString 1 " + string1 + " is not equivalent to String 3 " + string3 + "\n\n");
-		}
-	
 		
 	}
 	
