@@ -56,7 +56,7 @@ public class Objective7Lab5
 				System.out.println("\tHey silly goose please enter 1, 2, or 3\n");
 			}
 			
-		System.out.println("===============================================================");
+			System.out.println("===============================================================");
 			
 			
 		}

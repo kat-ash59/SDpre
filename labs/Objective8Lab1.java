@@ -2,7 +2,7 @@
 // Objective 8 programs
 // using for loops
 //
-//Create a file called Objective8Lab1.java in the SDPre/Labs directory.
+// Create a file called Objective8Lab1.java in the SDPre/Labs directory.
 // Using the starter code below, add code to the commented areas that would:
 // Write a for loop that will print the numbers 1 to 10.
 // Write another for loop that will print the numbers 10 to 1.
